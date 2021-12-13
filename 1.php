@@ -24,7 +24,7 @@ if (isset($_POST['submit']))
 	$secondValue = $_POST['secondValue'];
 	$operation = $_POST['operation'];
 	// Проверка валидации
-	if (!$operation || (!$firstValue && $firstValue != '0') || (!$secondValue && $secondValue != '0')) //уточнить по поводу !
+	if (!$operation || (!$firstValue && $firstValue != '0') || (!$secondValue && $secondValue != '0'))
 	{
 		$errorResult = 'Заполните все поля';
 	}
